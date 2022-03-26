@@ -1,6 +1,5 @@
 Module Program
-    Sub Main(args As String())
-
+    Sub Main()
         ' Join
         Dim helloWorldArray As Array = {"Hello", "World!"}
         Dim joinedString As String = String.Join(",", helloWorldArray)

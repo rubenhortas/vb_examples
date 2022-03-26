@@ -1,5 +1,5 @@
 Module Program
-    Sub Main(args As String())
+    Sub Main()
         Dim base As Base = New Base()
         Dim derived As Derived = New Derived()
 
