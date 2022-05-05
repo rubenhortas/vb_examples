@@ -1,2 +1,2 @@
 # vb_examples
-Visual Basic (VB.NET) small examples of code
+Small examples of Visual Basic (VB.NET) code
