@@ -1,4 +1,4 @@
-# vb_examples
+# vb examples
 Small examples of Visual Basic (VB.NET) code
 
 ## Support
