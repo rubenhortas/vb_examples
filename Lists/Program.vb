@@ -3,5 +3,4 @@ Module Program
         Order.OrderLists()
         Console.ReadLine()
     End Sub
-
 End Module
