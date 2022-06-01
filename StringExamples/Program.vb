@@ -42,7 +42,7 @@ Module Program
         str1 = "a"
         str2 = "a"
         Console.WriteLine(String.Format("String.Compare(""a"", ""a""): {0}", String.Compare(str1, str2))) '0
-        Console.WriteLine(String.Format("""a"" = ""a"": {0}", String.Compare(str1, str2))) '0
+        Console.WriteLine(String.Format("""a"" = ""a"": {0}", str1 = str2)) 'True
 
         Console.ReadLine()
     End Sub
