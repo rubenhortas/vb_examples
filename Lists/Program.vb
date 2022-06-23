@@ -1,7 +1,7 @@
 Module Program
     Sub Main()
         'Order.OrderLists()
-        JoinExample.JoinLists()
+        Join.JoinLists()
         Console.ReadLine()
     End Sub
 End Module
