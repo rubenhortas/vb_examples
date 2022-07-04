@@ -7,7 +7,7 @@
 
     'Attributes can't be overridable
     Protected _protectedAttributte As String
-    Private _privateAttribute As String
+    Private ReadOnly _privateAttribute As String
 
     Public Property PublicProperty As String
 
@@ -45,23 +45,23 @@
     End Sub
 
     Private Sub PrintConstsValues()
-        Console.WriteLine(vbTab & "Consts:")
-        Console.WriteLine(vbTab & vbTab & PUBLIC_CONST)
-        Console.WriteLine(vbTab & vbTab & PROTECTED_CONST)
-        Console.WriteLine(vbTab & vbTab & PRIVATE_CONST)
+        Console.WriteLine($"{vbTab}Consts:")
+        Console.WriteLine($"{vbTab}{vbTab}{PUBLIC_CONST}")
+        Console.WriteLine($"{vbTab}{vbTab}{PROTECTED_CONST}")
+        Console.WriteLine($"{vbTab}{vbTab}{PRIVATE_CONST}")
     End Sub
 
     Private Sub PrintAttributesValues()
-        Console.WriteLine(vbTab & "Attributes:")
-        Console.WriteLine(vbTab & vbTab & _protectedAttributte)
-        Console.WriteLine(vbTab & vbTab & _privateAttribute)
+        Console.WriteLine($"{vbTab}Attributes:")
+        Console.WriteLine($"{vbTab}{vbTab}{_protectedAttributte}")
+        Console.WriteLine($"{vbTab}{vbTab}{_privateAttribute}")
     End Sub
 
     Private Sub PrintPropertiesValues()
-        Console.WriteLine(vbTab & "Properties:")
-        Console.WriteLine(vbTab & vbTab & PublicProperty)
-        Console.WriteLine(vbTab & vbTab & ProtectedOverridableProperty)
-        Console.WriteLine(vbTab & vbTab & PrivateProperty)
+        Console.WriteLine($"{vbTab}Properties:")
+        Console.WriteLine($"{vbTab}{vbTab}{PublicProperty}")
+        Console.WriteLine($"{vbTab}{vbTab}{ProtectedOverridableProperty}")
+        Console.WriteLine($"{vbTab}{vbTab}{PrivateProperty}")
     End Sub
 
 End Class
