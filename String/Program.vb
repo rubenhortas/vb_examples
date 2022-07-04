@@ -1,49 +1,78 @@
 Module Program
-    Sub Main()
-        ' Join
-        Dim helloWorldArray As Array = {"Hello", "World!"}
-        Dim joinedString As String = String.Join(",", helloWorldArray)
-        Console.WriteLine(joinedString) ' Hello World!
+    Private Const OneTwoThree As String = "one, two, three"
+    Private Const Numbers As String = "1234513370000"
+    Private Const HelloWorld As String = "Hello World!!"
+    Private Const Nothing1 As String = Nothing
+    Private Const Nothing2 As String = Nothing
+    Private Const Abc1 As String = "abc"
+    Private Const Abc2 As String = "abc"
 
-        ' Split
-        Dim str As String = "one, two, three"
-        Dim splittedString As String() = str.Split()
+
+    Sub Main()
+        Join()
+        Split()
+        Contains()
+        Remove()
+        Compare()
+    End Sub
+
+    Private Sub Join()
+        Dim helloWorld As New List(Of String) From {
+            "hello",
+            "world!"
+        }
+        Dim joinedString As String = String.Join(",", helloWorld)
+
+        Console.WriteLine("Join array of strings helloWorld:")
+        Console.WriteLine(joinedString.ToString) ' Hello World!
+        Console.WriteLine()
+    End Sub
+
+    Private Sub Split()
+        Dim splittedString As String() = OneTwoThree.Split()
+
+        Console.WriteLine("Split:")
 
         For Each s As String In splittedString
             Console.WriteLine(s)
-            ' one
-            ' two
-            'three
         Next
 
-        ' Contains
-        Dim numbers = "1234513370000"
+        Console.WriteLine()
+    End Sub
 
-        If numbers.Contains("1337") Then
+    Private Sub Contains()
+        Console.WriteLine("Contains:")
+
+        If Numbers.Contains("1337") Then
             Console.WriteLine("Y0u'r3 1337!")
         End If
 
-        'Remove
-        Dim helloWorld As String = "Hello World!!"
-        Dim cleanHelloWorld As String = helloWorld.Remove(helloWorld.Length - 1)
-
-        Console.WriteLine(cleanHelloWorld) ' Hello World!
-
-        'Compare
-        Dim str1 As String = Nothing
-        Dim str2 As String = Nothing
-
-        Console.WriteLine(String.Format("String.Compare(Nothing, Nothing): {0}", String.Compare(str1, str2))) '0
-
-        str2 = String.Empty
-        Console.WriteLine(String.Format("String.Compare(Nothing, String.Empty): {0}", String.Compare(str1, str2))) '-1
-        Console.WriteLine(String.Format("Nothing = String.Empty: {0}", String.Compare(str1, str2))) '-1
-
-        str1 = "a"
-        str2 = "a"
-        Console.WriteLine(String.Format("String.Compare(""a"", ""a""): {0}", String.Compare(str1, str2))) '0
-        Console.WriteLine(String.Format("""a"" = ""a"": {0}", str1 = str2)) 'True
-
-        Console.ReadLine()
+        Console.WriteLine()
     End Sub
+
+    Private Sub Remove()
+        Dim cleanHelloWorld As String = HelloWorld.Remove(HelloWorld.Length - 1)
+
+        Console.WriteLine("Remove:")
+        Console.WriteLine(cleanHelloWorld) ' Hello World!
+        Console.WriteLine()
+    End Sub
+
+    Private Sub Compare()
+        Console.WriteLine("Compare Nothing:")
+        Console.WriteLine($"String.Compare(Nothing, Nothing): {String.Compare(Nothing1, Nothing2)}") '0
+        Console.WriteLine()
+
+        Console.WriteLine("Compare Nothing and String.Empty:")
+        Console.WriteLine($"String.Compare(Nothing, String.Empty): {String.Compare(Nothing, String.Empty)}") '-1
+        Console.WriteLine($"Nothing = String.Empty: {Nothing = String.Empty}") 'True
+        Console.WriteLine()
+
+
+        Console.WriteLine("Compare two equal strings:")
+        Console.WriteLine($"String.Compare({Abc1}, {Abc2}): {String.Compare(Abc1, Abc2)}") '0
+        Console.WriteLine($"{Abc1} = {Abc2}: {Abc1 = Abc2}") 'True
+        Console.WriteLine()
+    End Sub
+
 End Module
