@@ -1,6 +1,6 @@
 # General Rules
 
-* CamelCase style: Begin each separate word in a name with a capital letter: **WriteExample**
+* Begin each separate word in a name with a capital letter: **WriteExample**
 * When you name an element in your Visual Basic application, the first character of that name must be an alphabetic character or an underscore. 
 * An element name must only contain alphabetic characters, decimal digits, and underscores.  
 * An element name must only contain alphabetic characters, decimal digits, and underscores.
@@ -15,8 +15,19 @@
 
 # Class
 
-CamelCase style.  
+UpperCamelCase (PascalCase) style.  
 Begin with a noun.
+
+**ClassName**
+
+In names of event argument classes, include the "EventArgs" suffix.
+
+**CustomMouseEventArgs**
+
+# Constant
+LowerCamelCase style.
+
+**constName**
 
 # Comment
 * Put comments on a separate line instead of at the end of a line of code.  
@@ -25,48 +36,50 @@ Begin with a noun.
 
 **' Here is a comment.**
 
-**ClassName**
-
-In names of event argument classes, include the "EventArgs" suffix.
-
-**CustomMuseEventArgs**
-
 # Event handler
 
-CamelCase style.  
+UpperCamelCase (PascalCase) style.
 Begin names with a noun describing the type of event followed by the "Handler" suffix.
 
 **MouseEventHandler**
    
 # Function/Method
 
-* Begin function and method names with a verb
+UpperCamelCase (PascalCase) style.  
+Begin function and method names with a verb
 
 **RunFunction**
  
 # Interface
 
-CamelCase style.  
+UpperCamelCase (PascalCase) style.  
 Begin interface names with the prefix "I", followed by a noun or a noun phrase,  or with an adjective describing the interface's behavior.  
-Do not use the underscore, and use abbreviations sparingly, because abbreviations can cause confusion.
+Do not use the underscore, and use abbreviations sparingly, because abbreviations can cause confusion.  
 
-**IComponent**
-**IPersistable**
+**IComponent**  
+**IPersistable**  
      
 # Module
 
-CamelCase style.  
+UpperCamelCase (PascalCase) style.   
 Begin with a noun.
 
 **ModuleName**
      
 # Structure
 
-CamelCase style.  
+UpperCamelCase (PascalCase) style.    
 Begin with a noun.
 
-**ClassName**
+**StructureName**
+
+# Variable
+lowerCamelCase style.  
+
+**variableName**
 
 # Sources
 * [Microsoft docs: Visual Basic Naming conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)
 * [Microsoft docs: Visual Basic Coding conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/coding-conventions)
+* [Declaring constants](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-constants)
+* [Declaring variables](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-variables)
