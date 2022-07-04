@@ -7,7 +7,6 @@ Module Program
     Private Const Abc1 As String = "abc"
     Private Const Abc2 As String = "abc"
 
-
     Sub Main()
         Join()
         Split()
