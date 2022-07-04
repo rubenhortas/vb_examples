@@ -1,8 +1,9 @@
 ﻿Public Class Order
 
     Public Shared Sub OrderLists()
+        Console.WriteLine("Order lists:")
         Dim simpleObject As SimpleObject
-        Dim simpleObjects As List(Of SimpleObject) = New List(Of SimpleObject)
+        Dim simpleObjects As New List(Of SimpleObject)
         Dim orderedObjects As List(Of SimpleObject)
 
         simpleObject = New SimpleObject("a", "b", "c")
@@ -23,10 +24,12 @@
 
         Console.WriteLine("Ordered list:")
         PrintList(orderedObjects)
+
+        Console.WriteLine()
     End Sub
     Private Shared Sub PrintList(l As List(Of SimpleObject))
         For i As Integer = 0 To l.Count - 1
-            Console.WriteLine(vbTab + String.Format("{0}) {1}", i.ToString, l(i).ToString()))
+            Console.WriteLine($"{vbTab} {i} {l(i)}")
         Next
     End Sub
 
