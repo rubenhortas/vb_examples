@@ -1,4 +1,5 @@
 Module Program
+
     Sub Main()
         RunMethod("Hello")
         RunMethod("Hello", "world")
@@ -11,4 +12,5 @@ Module Program
             Console.WriteLine($"{arg1} {optionalArg}!")
         End If
     End Sub
+
 End Module
