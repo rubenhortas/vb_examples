@@ -1,4 +1,5 @@
 Module Program
+
     Sub Main()
         ' Ternary operator
         Dim isAnExample As Boolean = True
@@ -6,4 +7,5 @@ Module Program
 
         Console.WriteLine(exampleMessage)
     End Sub
+
 End Module

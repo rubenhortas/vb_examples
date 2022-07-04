@@ -1,4 +1,5 @@
 ﻿Public Class Join
+
     Public Shared Sub JoinLists()
         Dim lstJoined As String
         Dim lst As New List(Of String) From {"a", "b", "c"}
@@ -12,4 +13,5 @@
         Console.WriteLine($"Joined list as String: {lstJoined}")
         Console.WriteLine()
     End Sub
+
 End Class

@@ -27,6 +27,7 @@
 
         Console.WriteLine()
     End Sub
+
     Private Shared Sub PrintList(l As List(Of SimpleObject))
         For i As Integer = 0 To l.Count - 1
             Console.WriteLine($"{vbTab} {i} {l(i)}")

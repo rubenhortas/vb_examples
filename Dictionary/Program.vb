@@ -1,4 +1,5 @@
 Module Program
+
     Sub Main()
         Dim d As New Dictionary(Of Integer, String) From {
             {1, "One"},
@@ -14,4 +15,5 @@ Module Program
             Console.WriteLine(String.Format("Key: {0}\tValue: {1}", k, v).Replace("\t", vbTab))
         Next
     End Sub
+
 End Module

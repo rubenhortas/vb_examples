@@ -1,4 +1,5 @@
 Module Program
+
     Sub Main()
         Dim base As New Base()
         Dim derived As New Derived()
@@ -6,4 +7,5 @@ Module Program
         base.WriteInfo()
         derived.WriteInfo()
     End Sub
+
 End Module
