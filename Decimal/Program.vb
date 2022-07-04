@@ -5,7 +5,5 @@ Module Program
         StringToDecimal.Parse(1)
         StringToDecimal.TryParse("string2")
         StringToDecimal.TryParse(2)
-
-        Console.ReadLine()
     End Sub
 End Module
