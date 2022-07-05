@@ -1,4 +1,5 @@
 ﻿Public Class StringToDecimal
+
     Public Shared Sub Parse(value As Object)
         Dim d As Decimal
 

@@ -17,10 +17,7 @@ Module Program
     End Sub
 
     Private Sub Join()
-        Dim helloWorld As New List(Of String) From {
-            "hello",
-            "world!"
-        }
+        Dim helloWorld As New List(Of String) From {"hello", "world!"}
         Dim joinedString As String = String.Join(",", helloWorld)
 
         Console.WriteLine("Join array of strings helloWorld:")
@@ -67,7 +64,6 @@ Module Program
         Console.WriteLine($"String.Compare(Nothing, String.Empty): {String.Compare(Nothing, String.Empty)}") '-1
         Console.WriteLine($"Nothing = String.Empty: {Nothing = String.Empty}") 'True
         Console.WriteLine()
-
 
         Console.WriteLine("Compare two equal strings:")
         Console.WriteLine($"String.Compare({Abc1}, {Abc2}): {String.Compare(Abc1, Abc2)}") '0

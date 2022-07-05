@@ -31,6 +31,7 @@
 #End Region
 
 #Region "Constructors"
+
     Public Sub New(firstField As String, secondField As String, thirdField As String)
         _firstField = firstField
         _secondField = secondField

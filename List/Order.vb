@@ -1,7 +1,6 @@
 ﻿Public Class Order
 
     Public Shared Sub OrderLists()
-        Console.WriteLine("Order lists:")
         Dim simpleObject As SimpleObject
         Dim simpleObjects As New List(Of SimpleObject)
         Dim orderedObjects As List(Of SimpleObject)
@@ -17,12 +16,14 @@
 
         orderedObjects = simpleObjects.OrderBy(Function(o) o.FirstField).OrderBy(Function(o) o.SecondField).ToList()
 
+        Console.WriteLine("Order lists:")
         Console.WriteLine("Disordered list:")
+
         PrintList(simpleObjects)
 
         Console.WriteLine()
-
         Console.WriteLine("Ordered list:")
+
         PrintList(orderedObjects)
 
         Console.WriteLine()

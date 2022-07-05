@@ -1,13 +1,23 @@
 ﻿Public Class Base
 
+#Region "Constants"
+
     'Const can't be overridable
     Public Const PUBLIC_CONST As String = "Base public const"
     Protected Const PROTECTED_CONST As String = "Base protected const"
     Private Const PRIVATE_CONST As String = "Base private const"
 
+#End Region
+
+#Region "Attributes"
+
     'Attributes can't be overridable
     Protected _protectedAttributte As String
     Private ReadOnly _privateAttribute As String
+
+#End Region
+
+#Region "Properties"
 
     Public Property PublicProperty As String
 
@@ -23,6 +33,10 @@
 
     Private ReadOnly Property PrivateProperty As String
 
+#End Region
+
+#Region "Constructors"
+
     'Constructor can't be overridable
     Public Sub New()
         _protectedAttributte = "Base protected attribute"
@@ -32,6 +46,10 @@
         ProtectedProperty = "Base protected property"
         PrivateProperty = "Base private property"
     End Sub
+
+#End Region
+
+#Region "Methods"
 
     Public Sub WriteInfo()
         PrintClassName()
@@ -63,5 +81,7 @@
         Console.WriteLine($"{vbTab}{vbTab}{ProtectedOverridableProperty}")
         Console.WriteLine($"{vbTab}{vbTab}{PrivateProperty}")
     End Sub
+
+#End Region
 
 End Class
