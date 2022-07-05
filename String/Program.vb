@@ -18,10 +18,10 @@ Module Program
 
     Private Sub Join()
         Dim helloWorld As New List(Of String) From {"hello", "world!"}
-        Dim joinedString As String = String.Join(",", helloWorld)
+        Dim imHere() As String = {"I'm", "here!"}
 
-        Console.WriteLine("Join list of strings helloWorld:")
-        Console.WriteLine(joinedString.ToString) ' Hello World!
+        Console.WriteLine($"Join list of strings helloWorld: {String.Join(",", helloWorld)}") ' hello,world!
+        Console.WriteLine($"Join array of strings imHere: {String.Join(" ", imHere)}") 'I'm here!
         Console.WriteLine()
     End Sub
 
