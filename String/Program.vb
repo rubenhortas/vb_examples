@@ -20,7 +20,7 @@ Module Program
         Dim helloWorld As New List(Of String) From {"hello", "world!"}
         Dim joinedString As String = String.Join(",", helloWorld)
 
-        Console.WriteLine("Join array of strings helloWorld:")
+        Console.WriteLine("Join list of strings helloWorld:")
         Console.WriteLine(joinedString.ToString) ' Hello World!
         Console.WriteLine()
     End Sub
