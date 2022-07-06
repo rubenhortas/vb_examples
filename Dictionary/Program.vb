@@ -12,7 +12,7 @@ Module Program
             Dim k As Integer = kvp.Key
             Dim v As String = kvp.Value
 
-            Console.WriteLine(String.Format("Key: {0}\tValue: {1}", k, v).Replace("\t", vbTab))
+            Console.WriteLine($"Key: {k}{vbTab}{v}")
         Next
     End Sub
 
