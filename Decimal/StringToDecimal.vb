@@ -6,7 +6,7 @@
         Try
             d = Decimal.Parse(value)
 
-            Console.WriteLine($"d: {d}")
+            Console.WriteLine($"Converted {value} to {d}")
         Catch ex As Exception
             Console.WriteLine($"Unable to convert: {value}")
         End Try
@@ -16,7 +16,7 @@
         Dim d As Decimal
 
         If Decimal.TryParse(value, d) Then
-            Console.WriteLine($"d: {d}")
+            Console.WriteLine($"Converted {value} to {d}")
         Else
             Console.WriteLine($"Unable to convert: {value}")
         End If
