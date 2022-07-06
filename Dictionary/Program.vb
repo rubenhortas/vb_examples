@@ -9,10 +9,7 @@ Module Program
 
         'Iterate dictionary
         For Each kvp As KeyValuePair(Of Integer, String) In d
-            Dim k As Integer = kvp.Key
-            Dim v As String = kvp.Value
-
-            Console.WriteLine($"Key: {k}{vbTab}{v}")
+            Console.WriteLine($"Key: {kvp.Key}{vbTab}{kvp.Value}")
         Next
     End Sub
 
