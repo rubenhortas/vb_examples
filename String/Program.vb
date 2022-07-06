@@ -32,7 +32,7 @@ Module Program
         Console.WriteLine($"Splitting {OneTwoThree}:")
 
         For Each s As String In splittedString
-            Console.WriteLine($"{vbTab}s")
+            Console.WriteLine($"{vbTab}{s}")
         Next
 
         Console.WriteLine()
