@@ -13,7 +13,7 @@
 * Avoid using names in an inner scope that are the same as names in an outer scope. If a conflict occurs between a variable and the keyword of the same name, you must identify the keyword by preceding it with the appropriate type library. For example, if you have a variable called *Date*, you can use the intrinsic *Date* function only by calling *DateTime.Date*.
 * Do not use "My" or "my" as part of a variable name
 
-| Public element  | Notation                    | Example                  | Notes                                                                                  |
+| Element         | Notation                    | Example                  | Notes                                                                                  |
 |-----------------|-----------------------------|--------------------------|----------------------------------------------------------------------------------------|
 | Class           | PascalCase (UpperCamelCase) | ClassName                | Begin with a noun. In names of event argument classes, include the "EventArgs" suffix. |
 | Constant        | cameCase (lowerCamelCase)   | constName                |                                                                                        |
