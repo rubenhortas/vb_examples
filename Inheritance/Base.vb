@@ -3,17 +3,17 @@
 #Region "Constants"
 
     'Const can't be overridable
-    Public Const PUBLIC_CONST As String = "Base public const"
-    Protected Const PROTECTED_CONST As String = "Base protected const"
-    Private Const PRIVATE_CONST As String = "Base private const"
+    Public Const publicConst As String = "Base public const"
+    Protected Const protectedConst As String = "Base protected const"
+    Private Const privateConst As String = "Base private const"
 
 #End Region
 
 #Region "Attributes"
 
-    'Attributes can't be overridable
-    Protected _protectedAttributte As String
-    Private ReadOnly _privateAttribute As String
+    ' Attributes can't be overridable.
+    Protected protectedAttributte As String
+    Private ReadOnly privateAttribute As String
 
 #End Region
 
@@ -21,8 +21,8 @@
 
     Public Property PublicProperty As String
 
-    'This is the way to override values in derived classes as if they were constants
-    'without using the constructor or methods to override protected values.
+    ' This is the way to override values in derived classes as if they were constants
+    ' without using the constructor or methods to override protected values.
     Protected Overridable ReadOnly Property ProtectedOverridableProperty As String
         Get
             Return "Base protected overridable property"
@@ -37,10 +37,10 @@
 
 #Region "Constructors"
 
-    'Constructor can't be overridable
+    ' Constructor can't be overridable.
     Public Sub New()
-        _protectedAttributte = "Base protected attribute"
-        _privateAttribute = "Base private attribute"
+        protectedAttributte = "Base protected attribute"
+        privateAttribute = "Base private attribute"
 
         PublicProperty = "Base public property"
         ProtectedProperty = "Base protected property"
@@ -64,15 +64,15 @@
 
     Private Sub PrintConstsValues()
         Console.WriteLine($"{vbTab}Consts:")
-        Console.WriteLine($"{vbTab}{vbTab}{PUBLIC_CONST}")
-        Console.WriteLine($"{vbTab}{vbTab}{PROTECTED_CONST}")
-        Console.WriteLine($"{vbTab}{vbTab}{PRIVATE_CONST}")
+        Console.WriteLine($"{vbTab}{vbTab}{publicConst}")
+        Console.WriteLine($"{vbTab}{vbTab}{protectedConst}")
+        Console.WriteLine($"{vbTab}{vbTab}{privateConst}")
     End Sub
 
     Private Sub PrintAttributesValues()
         Console.WriteLine($"{vbTab}Attributes:")
-        Console.WriteLine($"{vbTab}{vbTab}{_protectedAttributte}")
-        Console.WriteLine($"{vbTab}{vbTab}{_privateAttribute}")
+        Console.WriteLine($"{vbTab}{vbTab}{protectedAttributte}")
+        Console.WriteLine($"{vbTab}{vbTab}{privateAttribute}")
     End Sub
 
     Private Sub PrintPropertiesValues()
