@@ -38,5 +38,5 @@
 
 * [Microsoft docs: Visual Basic Naming conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)
 * [Microsoft docs: Visual Basic Coding conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/coding-conventions)
-* [Declaring constants](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-constants)
-* [Declaring variables](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-variables)
+* [Microsoft docs: Declaring constants](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-constants)
+* [Microsoft docs: Declaring variables](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-variables)
