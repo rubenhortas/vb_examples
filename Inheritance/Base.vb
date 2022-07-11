@@ -2,7 +2,7 @@
 
 #Region "Constants"
 
-    'Const can't be overridable
+    ' Const can't be overridable
     Public Const publicConst As String = "Base public const"
     Protected Const protectedConst As String = "Base protected const"
     Private Const privateConst As String = "Base private const"
