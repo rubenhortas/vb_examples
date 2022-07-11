@@ -13,72 +13,29 @@
 * Avoid using names in an inner scope that are the same as names in an outer scope. If a conflict occurs between a variable and the keyword of the same name, you must identify the keyword by preceding it with the appropriate type library. For example, if you have a variable called *Date*, you can use the intrinsic *Date* function only by calling *DateTime.Date*.
 * Do not use "My" or "my" as part of a variable name
 
-# Class
+| Element         | Notation                    | Example                  | Notes                                                                                  |
+|-----------------|-----------------------------|--------------------------|----------------------------------------------------------------------------------------|
+| Class           | PascalCase (UpperCamelCase) | ClassName                | Begin with a noun. In names of event argument classes, include the "EventArgs" suffix. |
+| Constant        | cameCase (lowerCamelCase)   | constName                |                                                                                        |
+| Event handler   | PascalCase (UpperCamelCase) | MouseEventHandler        | Begin names with a noun describing the type of event followed by the "Handler" suffix. |
+| Function/Method | PascalCase (UpperCamelCase) | RunFunction              | Begin function and method names with a verb.                                           |
+| Interface       | PascalCase (UpperCamelCase) | IComponent, IPersistable | Begin interface names with the prefix "I", followed by a noun or a noun phrase, or with an adjective describing the interface's behavior. Do not use the underscore, and use abbreviations sparingly because abbreviations can cause confusion. |
+| Module          | PascalCase (UpperCamelCase) | ModuleName               | Begin with a noun.                                                                     |
+| Structure       | PascalCase (UpperCamelCase) | StructureName            | Begin with a noun.                                                                     |
+| Variable        | camelCase (lowerCamelCase)  | variableName             |                                                                                        |
 
-UpperCamelCase (PascalCase) style.  
-Begin with a noun.
 
-**ClassName**
+# Commenting conventions
 
-In names of event argument classes, include the "EventArgs" suffix.
-
-**CustomMouseEventArgs**
-
-# Constant
-LowerCamelCase style.
-
-**constName**
-
-# Comment
 * Put comments on a separate line instead of at the end of a line of code.  
 * Start comment text with an uppercase letter, and end comment text with a period.  
 * Insert one space between the comment delimiter (') and the comment text.  
 
 **' Here is a comment.**
 
-# Event handler
-
-UpperCamelCase (PascalCase) style.
-Begin names with a noun describing the type of event followed by the "Handler" suffix.
-
-**MouseEventHandler**
-   
-# Function/Method
-
-UpperCamelCase (PascalCase) style.  
-Begin function and method names with a verb
-
-**RunFunction**
- 
-# Interface
-
-UpperCamelCase (PascalCase) style.  
-Begin interface names with the prefix "I", followed by a noun or a noun phrase,  or with an adjective describing the interface's behavior.  
-Do not use the underscore, and use abbreviations sparingly, because abbreviations can cause confusion.  
-
-**IComponent**  
-**IPersistable**  
-     
-# Module
-
-UpperCamelCase (PascalCase) style.   
-Begin with a noun.
-
-**ModuleName**
-     
-# Structure
-
-UpperCamelCase (PascalCase) style.    
-Begin with a noun.
-
-**StructureName**
-
-# Variable
-lowerCamelCase style.  
-
-**variableName**
 
 # Sources
+
 * [Microsoft docs: Visual Basic Naming conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)
 * [Microsoft docs: Visual Basic Coding conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/coding-conventions)
 * [Declaring constants](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-constants)
