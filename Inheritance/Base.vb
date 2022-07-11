@@ -12,8 +12,8 @@
 #Region "Attributes"
 
     ' Attributes can't be overridable.
-    Protected protectedAttributte As String
-    Private ReadOnly privateAttribute As String
+    Protected _protectedAttributte As String
+    Private ReadOnly _privateAttribute As String
 
 #End Region
 
@@ -39,8 +39,8 @@
 
     ' Constructor can't be overridable.
     Public Sub New()
-        protectedAttributte = "Base protected attribute"
-        privateAttribute = "Base private attribute"
+        _protectedAttributte = "Base protected attribute"
+        _privateAttribute = "Base private attribute"
 
         PublicProperty = "Base public property"
         ProtectedProperty = "Base protected property"
@@ -71,8 +71,8 @@
 
     Private Sub PrintAttributesValues()
         Console.WriteLine($"{vbTab}Attributes:")
-        Console.WriteLine($"{vbTab}{vbTab}{protectedAttributte}")
-        Console.WriteLine($"{vbTab}{vbTab}{privateAttribute}")
+        Console.WriteLine($"{vbTab}{vbTab}{_protectedAttributte}")
+        Console.WriteLine($"{vbTab}{vbTab}{_privateAttribute}")
     End Sub
 
     Private Sub PrintPropertiesValues()
