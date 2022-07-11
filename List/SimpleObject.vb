@@ -2,9 +2,9 @@
 
 #Region "Attributes"
 
-    Private firstField As String
-    Private secondField As String
-    Private thirdField As String
+    Private _firstField As String
+    Private _secondField As String
+    Private _thirdField As String
 
 #End Region
 
@@ -12,19 +12,19 @@
 
     Public ReadOnly Property FirstField As String
         Get
-            Return FirstField
+            Return _firstField
         End Get
     End Property
 
     Public ReadOnly Property SecondField As String
         Get
-            Return SecondField
+            Return _secondField
         End Get
     End Property
 
     Public ReadOnly Property ThirdField As String
         Get
-            Return ThirdField
+            Return _thirdField
         End Get
     End Property
 
@@ -33,9 +33,9 @@
 #Region "Constructors"
 
     Public Sub New(firstField As String, secondField As String, thirdField As String)
-        firstField = firstField
-        secondField = secondField
-        thirdField = thirdField
+        _firstField = firstField
+        _secondField = secondField
+        _thirdField = thirdField
     End Sub
 
 #End Region
