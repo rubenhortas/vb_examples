@@ -16,7 +16,7 @@
 | Element         | Notation                    | Example                  | Notes                                                                                  |
 |-----------------|-----------------------------|--------------------------|----------------------------------------------------------------------------------------|
 | Class           | PascalCase (UpperCamelCase) | ClassName                | Begin with a noun. In names of event argument classes, include the "EventArgs" suffix. |
-| Constant        | cameCase (lowerCamelCase)   | constName                |                                                                                        |
+| Constant        | camelCase (lowerCamelCase)  | constName                |                                                                                        |
 | Event handler   | PascalCase (UpperCamelCase) | MouseEventHandler        | Begin names with a noun describing the type of event followed by the "Handler" suffix. |
 | Function/Method | PascalCase (UpperCamelCase) | RunFunction              | Begin function and method names with a verb.                                           |
 | Interface       | PascalCase (UpperCamelCase) | IComponent, IPersistable | Begin interface names with the prefix "I", followed by a noun or a noun phrase, or with an adjective describing the interface's behavior. Do not use the underscore, and use abbreviations sparingly because abbreviations can cause confusion. |
