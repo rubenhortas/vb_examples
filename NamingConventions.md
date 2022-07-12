@@ -31,8 +31,9 @@
 * Start comment text with an uppercase letter, and end comment text with a period.  
 * Insert one space between the comment delimiter (') and the comment text.  
 
-**' Here is a comment.**
-
+```vbnet
+' Here is a comment.**
+```
 
 # Sources
 
