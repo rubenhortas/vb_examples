@@ -32,7 +32,7 @@
 * Insert one space between the comment delimiter (') and the comment text.  
 
 ```vbnet
-' Here is a comment.**
+' Here is a comment.
 ```
 
 # Sources
