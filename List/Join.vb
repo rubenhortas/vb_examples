@@ -12,10 +12,10 @@
         ' Result: a, b, c.
         Console.WriteLine()
 
-        ' Join an empty list will result on a empty string
+        ' Join an empty list will return empty string
         Console.WriteLine($"Joined emtyList: { String.Join(",", emptyList)}")
 
-        ' Try to join a null list will result on an exception
+        ' Try to join a Nothing list will result in an exception
     End Sub
 
 End Class
