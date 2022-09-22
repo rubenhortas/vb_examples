@@ -15,7 +15,9 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "String", "String\String.vbp
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TernaryOperator", "TernaryOperator\TernaryOperator.vbproj", "{82D6A9CD-D957-434A-98D5-435FFFA7C08E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OptionalParameters", "OptionalParameters\OptionalParameters.vbproj", "{BB1B5C67-EE42-451A-AE0F-3158AE0DA99E}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "OptionalParameters", "OptionalParameters\OptionalParameters.vbproj", "{BB1B5C67-EE42-451A-AE0F-3158AE0DA99E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NTP", "NTP\NTP.vbproj", "{0AFAACBF-445A-4032-AD13-E1FC0DEBA992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{BB1B5C67-EE42-451A-AE0F-3158AE0DA99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1B5C67-EE42-451A-AE0F-3158AE0DA99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1B5C67-EE42-451A-AE0F-3158AE0DA99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFAACBF-445A-4032-AD13-E1FC0DEBA992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFAACBF-445A-4032-AD13-E1FC0DEBA992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFAACBF-445A-4032-AD13-E1FC0DEBA992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFAACBF-445A-4032-AD13-E1FC0DEBA992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
