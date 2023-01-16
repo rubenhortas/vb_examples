@@ -28,6 +28,7 @@ If you find these examples useful you can star this repo.
 | Function/Method | PascalCase (UpperCamelCase) | RunFunction              | Begin function and method names with a verb.                                           |
 | Interface       | PascalCase (UpperCamelCase) | IComponent, IPersistable | Begin interface names with the prefix "I", followed by a noun or a noun phrase, or with an adjective describing the interface's behavior. Do not use the underscore, and use abbreviations sparingly because abbreviations can cause confusion. |
 | Module          | PascalCase (UpperCamelCase) | ModuleName               | Begin with a noun.                                                                     |
+| Property        | PascalCase (UpperCamelCase) | ModuleName               | Begin with a noun.                                                                     |
 | Structure       | PascalCase (UpperCamelCase) | StructureName            | Begin with a noun.                                                                     |
 | Variable        | camelCase (lowerCamelCase)  | variableName             |                                                                                        |
 
