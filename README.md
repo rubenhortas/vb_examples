@@ -33,7 +33,7 @@ If you find these examples useful you can star this repo.
 | Variable        | camelCase (lowerCamelCase)  | variableName             |                                                                                        |
 
 
-## Commenting conventions
+## Comment conventions
 
 * Put comments on a separate line instead of at the end of a line of code.  
 * Start comment text with an uppercase letter, and end comment text with a period.  
