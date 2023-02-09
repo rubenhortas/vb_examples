@@ -1,12 +1,9 @@
 # vb examples
 Small examples of Visual Basic (VB.NET) code
 
-# Support
-If you find these examples useful you can star this repo.
+## VB naming conventions
 
-# VB naming conventions
-
-## General Rules
+### General Rules
 
 * Begin each separate word in a name with a capital letter: **WriteExample**
 * When you name an element in your Visual Basic application, the first character of that name must be an alphabetic character or an underscore. 
@@ -33,7 +30,7 @@ If you find these examples useful you can star this repo.
 | Variable        | camelCase (lowerCamelCase)  | variableName             |                                                                                        |
 
 
-## Comment conventions
+### Comment conventions
 
 * Put comments on a separate line instead of at the end of a line of code.  
 * Start comment text with an uppercase letter, and end comment text with a period.  
@@ -49,3 +46,6 @@ If you find these examples useful you can star this repo.
 * [Microsoft docs: Visual Basic Coding conventions](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/coding-conventions)
 * [Microsoft docs: Declaring constants](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-constants)
 * [Microsoft docs: Declaring variables](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-variables)
+
+## Support
+If you find these examples useful you can star this repo.
