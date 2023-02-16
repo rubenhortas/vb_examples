@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Cast</RootNamespace>
+    <RootNamespace>Boxing</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
