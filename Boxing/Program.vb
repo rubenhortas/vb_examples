@@ -2,8 +2,10 @@
 ' Boxing a value type allocates an object instance on the heap and copies the value into the new object.
 ' https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing
 ' https://learn.microsoft.com/es-es/dotnet/visual-basic/programming-guide/language-features/data-types/how-to-convert-an-object-to-another-type
+
 Module Program
     Dim o As Object
+
     Sub Main()
         Try
             ' The value assignment will return Nothing because the boxing.
